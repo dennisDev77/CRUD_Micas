@@ -1,0 +1,12 @@
+<h2>Livro ja Disponivel</h2>
+<hr>
+
+<div class="book-corpo">
+{{#each book}}
+
+<div>{{this.id}} - <span><a href="/livro/ver/{{this.id}}">{{this.titulo}} </a></span> -- {{this.autor}} -- {{this.descricao}} -- {{this.capa_livro}} -- {{this.data_lancamento}}</div>
+
+
+{{/each}}
+</div>
+<a href="/">Voltar</a>

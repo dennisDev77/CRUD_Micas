@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+.form-cadastrar .form{
+    color: rgb(37, 35, 35);
+    padding: 30px;
+}
+.book-corpo{
+    padding: 20px;
+    font-size: 14pt;
+}
+
+.form-cadastrar .form input{
+    padding: 10px;
+    font-size: 12pt;
+}
+.btn-btn{
+    border:0;
+    margin-top: 10px;
+    color: rgb(250, 227, 17);
+    background-color: rgb(35, 42, 48);
+    border-radius: 7px;
+}
+
+h2{
+    padding:10px;
+    color: rgb(250, 227, 17);
+    margin-top: 50px;
+}

@@ -1,0 +1,13 @@
+<h2>Titulo {{book.titulo}}</h2>
+
+<b>Autor: {{book.autor}}</b> <br>
+<b>descricao: {{book.descricao}}</b><br>
+<b>capa: {{book.capa_livro}}</b> <br>
+<b>data: {{book.data_lancamento}}</b> <br>
+
+<a href="/livro/ver">Voltar</a> |
+<a href="/livro/editar/{{book.id}}">Editar</a>
+
+<form action="/livro/remove/{{book.id}}" method="POST">
+<input type="submit" value="Remover Este livro" class="btn-btn" style="background-color: red; color:white; padding:10px; font-size:12pt">
+</form>

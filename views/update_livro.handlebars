@@ -1,0 +1,16 @@
+<h2>Actualizar o meu livro</h2>
+
+<div class="form-cadastrar">
+
+    <form action="/livro/salvar" method="post" class="form">
+        <input type="hidden" value="{{book.id}}" name="id">
+        <input type="text" value="{{book.titulo}}" name="titulo">
+        <input type="text" value="{{book.autor}}" name="autor">
+        <input type="text" value="{{book.descricao}}" name="descricao">
+        <input type="text" value="{{book.capa_livro}}" name="capa">
+        <input type="date" value="{{book.data_nascimento}}" name="data_lancamento"> <br>
+        <input type="submit" value="Actualizar Agora" style="background-color: rgb(9, 124, 9);border:none;color:white;padding:10px margin-top:10px; border:none;">
+    </form>
+
+    <a href="/livro/ver">Voltar</a>
+</div>
